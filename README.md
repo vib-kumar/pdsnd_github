@@ -2,7 +2,7 @@
 7/30/2020.
 
 ### Project Title
-Replace the Project Title
+Udacity GIT Course
 
 ### Description
 Describe what your project is about and what it does
