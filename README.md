@@ -11,4 +11,4 @@ GIT project submission
 No idea!
 
 ### Credits
-Self
+Motivation to learn python
