@@ -24,7 +24,7 @@ def get_filters():
     while True:
         city = str(input("\nSelect a city: New York City, Chicago or Washington? - ")).lower()
         if city not in CITY_DATA:
-            print("Invalid city selection. Please try again.")
+            print("Invalid city selection.")
             continue
         else:
             break
