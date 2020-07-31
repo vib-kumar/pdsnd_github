@@ -25,16 +25,17 @@ def get_filters():
     while True:
         city = str(input("\nSelect a city: New York City, Chicago or Washington? - ")).lower()
         if city not in CITY_DATA:
-            print("Invalid city selection. Please try again.")
+            print("Invalid city selection.")
             continue
         else:
             break
+
 
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
         month = str(input("\nSelect a month: January, February, March, April, May, June, or type 'all' to apply no month filter - ")).lower()
         if month not in months:
-            print("Invalid month selection. Please try again.")
+            print("Invalid month selection.")
             continue
         else:
             break
